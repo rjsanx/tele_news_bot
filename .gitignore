@@ -1,4 +1,5 @@
-myvenv
+myvenv/
+*.pyc
 token_12.py
 __pycache__
 __pycache__/token.cpython-38.pyc
