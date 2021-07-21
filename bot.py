@@ -76,7 +76,7 @@ bot = Bot(TOKEN)
 
    # dp = updater.dispatcher
 try: 
-    bot.set_webhook("https://warm-headland-72407.herokuapp.com/" + TOKEN)
+    bot.set_webhook("https://cryptic-citadel-33112.herokuapp.com/" + TOKEN)
 except Exception as e:
     print(e)
 
@@ -89,6 +89,4 @@ dp.add_handler(MessageHandler(Filters.sticker, echo_sticker))
 dp.add_error_handler(error)   
 
 if __name__ == "__main__":
-
-
     app.run(port=8443)
