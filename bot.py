@@ -76,7 +76,7 @@ bot = Bot(TOKEN)
 
    # dp = updater.dispatcher
 try: 
-    bot.set_webhook("https://mighty-inlet-89216.herokuapp.com/" + TOKEN)
+    bot.set_webhook("https://shielded-inlet-68269.herokuapp.com/" + TOKEN)
 except Exception as e:
     print(e)
 
