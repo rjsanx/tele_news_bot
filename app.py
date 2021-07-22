@@ -76,7 +76,7 @@ bot = Bot(TOKEN)
 
    # dp = updater.dispatcher
 try: 
-    bot.set_webhook("https://afternoon-sands-27205.herokuapp.com/" + TOKEN)
+    bot.set_webhook("https://frozen-taiga-33508.herokuapp.com/" + TOKEN)
 except Exception as e:
     print(e)
 
